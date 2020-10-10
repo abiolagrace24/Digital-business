@@ -1,0 +1,264 @@
+body {
+    padding: 0;
+    margin:0;
+
+}
+* {
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    }
+.flex-column {
+    flex-direction: column;
+}
+
+.flex--center-ver {
+    align-items: center;
+}
+
+.flex--between-hor {
+    justify-content: space-between;
+}
+
+.flex--center-hor {
+    justify-content: center;
+}
+
+.flex--center {
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*  banner */
+.banner {
+    background-color: rgb(103, 14, 247);
+    padding: 10px;
+    
+}
+
+.header {
+    padding:10px 80px ;
+}
+.logo {
+    width: 30px;
+}
+
+.nav__items {
+    color: mintcream;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin:0 10px;
+    font-weight: bold;
+    font-size:0.8rem;
+    
+}
+
+.effect {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.icon__2 {
+    float: right;
+    width: 25% 
+}
+.nvyy {
+    justify-content: flex-end;
+}
+
+.download-button {
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+    margin-top: 15px;
+    color: lightskyblue;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+.banner-content {
+    padding: 80px;
+    color:white ;
+}
+.banner-content__item {
+    width: 50%;
+
+}
+
+.banner-content h1 {
+    font-size: 5rem;
+    margin: 0;
+}
+.banner-content p {
+    line-height: 1.6;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    margin-bottom: 50px;
+}
+
+.banner-content a {
+    padding:10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 5px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-radius: 30px;
+    color: midnightblue;
+    background-color: white;
+    border: 2px solid white
+}
+
+.div {
+    margin: 10px;
+    background-color: rgb(156, 196, 241);
+
+}
+
+
+.compt {
+    padding-left: 20px;
+}
+
+.mini2 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
+.flex-container {
+    display: flex;
+    background-color:rgb(156, 196, 241);
+}
+
+.flex-container > div {
+    background-color: #f3e8e8;
+    margin: 30px;
+    padding: 30px;
+    font-size: 15px;
+  }
+
+
+.props {
+    width: 500px;
+    padding-right:  50px;
+    padding-left: 30px;
+    margin-right: 60px;
+    margin-bottom: 15px;
+    
+} 
+.picsize {
+    width: 200px;
+    height: 200px;
+} 
+
+.flex-container2 {
+    display: flex;
+    background-color: white;
+    height: 500px;
+}
+
+.list {
+    padding: 0 30px;
+}
+
+.featureworks {
+    text-align: center;
+    padding: 80px;
+}
+.list a {
+    display:block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#333333;
+    width:200px;
+    padding:15px;
+    font-size: 00.8rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 25px;
+
+}
+
+.list a.active {
+    background-image: linear-gradient(to right, blue, skyblue);
+}
+.flex-container3 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 100px;
+    background-color: salmon;
+  }
+
+.flex-container5 {
+    display: flex;
+    background-color: rgb(238, 239, 241);
+}
+
+.flex-container5 > div {
+    
+    background: -webkit-gradient(linear, left top, left bottom, from(#64b9f1), to(#090cca));
+	background: -moz-linear-gradient(top,  #64b9f1,  #090cca);
+    margin: 30px;
+    padding: 30px;
+    width: 33.33%;
+    height: 480px;
+    border-radius: 6px;
+  }
+
+  .gradesign {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+
+
+.flex-container6 {
+    display: flex;
+    background-color:rgb(253, 253, 251);
+}
+
+.flex-container6 > div {
+    background-color: transparent;
+    margin: 30px;
+    padding: 30px;
+    width: 50%;
+  }
+
+.flex-container7 {
+    display: flex;
+    background-color:rgb(253, 253, 208);
+}
+
+.flex-container7 > div {
+    background-color: transparent;
+    margin: 30px;
+    padding: 30px;
+    width: 70%,30%;
+    
+}
+
+
+.flex-container8 {
+    display: flex;
+    background-color:rgb(230, 230, 230);
+}
+
+.flex-container8 > div {
+    background-color: transparent;
+    margin: 30px;
+    padding: 30px;
+}
+
+p.flex-container8 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+
+
